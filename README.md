@@ -2,7 +2,7 @@
 
 firstly you have to put authentication data api_token and token_expires. Than You can further access of sport data. for example
 
-const Entity_soccer = require("./kabaddi/index.js");
+const Entity_soccer = require("./soccer/index.js");
 
 var entity = new Entity_soccer({api_token:'XXXXXXXXXXXXXX',token_expires:'XXXXXXX'})
 
